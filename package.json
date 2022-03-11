@@ -1,7 +1,11 @@
 {
+  "name": "ayaka-app",
   "private": true,
   "productName": "ElectronNext",
   "main": "main/index.js",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
   "scripts": {
     "clean": "rimraf dist renderer/.next renderer/out",
     "start": "electron .",
