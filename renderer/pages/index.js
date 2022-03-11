@@ -25,17 +25,9 @@ const Home = () => {
 
       {message && <p>{message}</p>}
 
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-        />
-      </form>
-
       <style jsx>{`
         h1 {
-          color: red;
+          color: grey;
           font-size: 50px;
         }
       `}</style>
