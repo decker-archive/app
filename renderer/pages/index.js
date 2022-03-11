@@ -21,7 +21,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1>Hello Electron!</h1>
+      <h1>It seems like you've cought us! we are still building this...</h1>
 
       {message && <p>{message}</p>}
 
